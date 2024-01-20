@@ -1,4 +1,4 @@
-title: PaperModX Example Site
+title: Frank Bi
 baseURL: "https://reorx.github.io/biwentao/"
 theme: PaperModX
 
@@ -6,7 +6,7 @@ enableRobotsTXT: true
 enableEmoji: true
 
 params:
-  description: "PaperModX Example Site description"
+  description: "Frank Bi description"
   author: Reorx
   images:
     - cover.png
@@ -33,23 +33,31 @@ params:
   ShowWordCount: true
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
-  Email: hello@example.com
+  Email: biwentaofrank@gmail.com
 
   socialIcons:
     - name: github-simple
-      url: "https://github.com/reorx"
+      url: "https://github.com/wentaobi"
     - name: twitter-simple
-      url: "https://twitter.com/novoreorx"
-    - name: telegram-simple
-      url: "https://t.me/reorx_share"
+      url: "https://twitter.com/bi_wentao"
     - name: rss-simple
       url: "feed.xml"
     - name: gmail
-      url: email
+      url: biwentaofrank@gmail.com
+    - name: linkedin-simple
+      url: https://www.linkedin.com/in/wentaobi
+    - name: qq
+      url: 649549603@qq.com
+    - name: facebook-simple
+      url: https://www.facebook.com/wentao.bi.3
+    - name: bilibili
+      url: https://space.bilibili.com/435665051
+    - name: external-link
+      url: https://wentaobi.github.io
 
   socialAccounts:
     twitter:
-      username: novoreorx
+      username: bi_wentao
 
   homeInfoParams:
     Title: "Get Ready With Me"
