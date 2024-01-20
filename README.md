@@ -1,14 +1,10 @@
-# hugo-PaperModX Example
+# Framework
 
-This repository offers an example site for [hugo-PaperModX](https://github.com/reorx/hugo-PaperModX)
+Source: [hugo-PaperModX](https://github.com/reorx/hugo-PaperModX)
 
-The GitHub Pages site for this repo is at: https://reorx.github.io/papermodx-example/
+## Blog
 
-## How to use
-
-1. Fork this repo
-2. Go to "Settings > Pages", select "GitHub Actions" for the "Source" dropdown
-
-    ![](_readme_images/settings-pages.png)
-3. Go to "Actions", rerun the failed workflow
-4. Your site should be available at `https://$USERNAME.github.io/papermodx-example/`, you can also check the URL at `https://github.com/$USERNAME/papermodx-example/settings/pages`
+1. Daily life
+2. Knowledge sharing
+3. Learn something
+4. Good memory
