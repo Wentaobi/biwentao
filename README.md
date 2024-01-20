@@ -1,4 +1,6 @@
-# Framework
+# My Blog
+
+## Framework
 
 Source: [hugo-PaperModX](https://github.com/reorx/hugo-PaperModX)
 
