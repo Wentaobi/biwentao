@@ -52,17 +52,15 @@ params:
       username: novoreorx
 
   homeInfoParams:
-    Title: "PaperModX"
+    Title: "Get Ready With Me"
     Content: |
-      Welcome to demo of hugo's theme PaperModX.
+      Hi, I'm your Frank.
 
-      - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+      - I'm a software engineer, I'm interested in Embedded software, Autonomous system, Machine learning compiler.
 
-      - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+      - In my spare time, I like Fitness, Road Trip, Good movies, Poker.
 
-      To get started, please head to the [Docs](docs).
-
-      To see examples of different contents, head to [examples tag](tags/example).
+      I will update this blog for daily life recording, such as work, life, study, etc.
 
   #commentSystems:
   #  disqus:
