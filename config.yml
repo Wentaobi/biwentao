@@ -74,6 +74,7 @@ params:
     Title: "Get Ready With Me" 
     Content: |
       Hi, I'm your Frank.  Time  {{< time.inline >}}{{ now }}{{< /time.inline >}}
+
       {{< time.inline >}}{{ :winking_face: }}{{< /time.inline >}}
 
       <p><span class="nowrap"><span class="emojify">🙈</span>  <span class="nowrap"><span class="emojify">🙉</span>  <span class="nowrap"><span class="emojify">🙊</span></span></p>
