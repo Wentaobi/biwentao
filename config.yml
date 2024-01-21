@@ -74,6 +74,7 @@ params:
     Title: "Get Ready With Me"
     Content: |
       Hi, I'm your Frank. </span> <code>
+      {{< time.inline >}}{{ now }}{{< /time.inline >}}
 
       <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 
