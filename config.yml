@@ -71,12 +71,12 @@ params:
       username: bi_wentao
 
   homeInfoParams:
-    Title: "Get Ready With Me"
+    Title: "Get Ready With Me" 
     Content: |
-      Hi, I'm your Frank. </span> <code>
-      {{< time.inline >}}{{ now }}{{< /time.inline >}}
+      Hi, I'm your Frank.  Time  {{< time.inline >}}{{ now }}{{< /time.inline >}}
+      {{< time.inline >}}{{ :winking_face: }}{{< /time.inline >}}
 
-      <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
+      <p><span class="nowrap"><span class="emojify">🙈</span>  <span class="nowrap"><span class="emojify">🙉</span>  <span class="nowrap"><span class="emojify">🙊</span></span></p>
 
       - I'm a software engineer, I'm interested in Embedded software, Autonomous system, Machine learning compiler.
 
