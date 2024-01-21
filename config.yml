@@ -2,6 +2,7 @@ title: Frank Bi
 baseURL: "https://reorx.github.io/biwentao/"
 theme: PaperModX
 
+enableInlineShortcodes: true
 enableRobotsTXT: true
 enableEmoji: true
 
@@ -72,7 +73,7 @@ params:
   homeInfoParams:
     Title: "Get Ready With Me"
     Content: |
-      Hi, I'm your Frank.
+      Hi, I'm your Frank. </span> <code>:grinning_face:</code></span>
 
       - I'm a software engineer, I'm interested in Embedded software, Autonomous system, Machine learning compiler.
 
