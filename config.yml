@@ -73,7 +73,9 @@ params:
   homeInfoParams:
     Title: "Get Ready With Me"
     Content: |
-      Hi, I'm your Frank. </span> <code>:grinning_face:</code></span>
+      Hi, I'm your Frank. </span> <code>
+
+      <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 
       - I'm a software engineer, I'm interested in Embedded software, Autonomous system, Machine learning compiler.
 
