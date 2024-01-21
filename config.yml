@@ -54,7 +54,7 @@ params:
       url: https://space.bilibili.com/435665051
     - name: external-link
       url: https://wentaobi.github.io
-    - name: nvidia-simple
+    - name: nvidia
       url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
 
   socialAccounts:
