@@ -1,5 +1,5 @@
 title: Frank Bi
-baseURL: "https://reorx.github.io/biwentao/"
+baseURL: "https://wentaobi.github.io/biwentao/"
 theme: PaperModX
 
 enableInlineShortcodes: true
@@ -8,7 +8,7 @@ enableEmoji: true
 
 params:
   description: "Frank Bi description"
-  author: Reorx
+  author: Frank Bi
   images:
     - cover.png
   favicon: favicon.ico
