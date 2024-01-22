@@ -1,6 +1,6 @@
 ---
 title: "Rich Content"
-date: "2019-03-10"
+date: "2024-01-22"
 description: "A brief description of Hugo Shortcodes"
 tags:
   - shortcodes

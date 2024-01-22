@@ -73,7 +73,7 @@ params:
   homeInfoParams:
     Title: "Get Ready With Me" 
     Content: |
-      Hi, I'm your Frank. You visit me at {{< time.inline >}}{{ now }}{{< /time.inline >}}  
+      Hi, I'm your Frank.   
 
       <p><span class="nowrap"><span class="emojify">🙈</span>  <span class="nowrap"><span class="emojify">🙉</span>  <span class="nowrap"><span class="emojify">🙊</span></span></p>
 
@@ -85,12 +85,12 @@ params:
 
   #commentSystems:
   #  disqus:
-  #    shortname: reorx
+  #    shortname: frank
   #  remark42:
   #    url: https://remark42.reorx.com
-  #    site: reorx.github.io
+  #    site: frank.github.io
   #  telegramWidget:
-  #    channel: reorx_share
+  #    channel: frank_share
   #    accentColor: "9077e1"
   #    limit: 20
   #defaultCommentSystems:

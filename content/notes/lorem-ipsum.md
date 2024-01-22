@@ -1,6 +1,6 @@
 ---
 title: A Note of Lorem Ipsum
-date: 2023-01-27T00:15:38+08:00
+date: 2024-01-21T00:15:38+08:00
 draft: false
 tags:
   - lorem
