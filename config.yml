@@ -65,6 +65,8 @@ params:
       url: https://www.zhihu.com/people/biwentaofrank
     - name: hackerrank
       url: https://leetcode.com/biwentaofrank/
+    - name: nvidia
+      url: https://www.nvidia.com/en-us/
 
   socialAccounts:
     twitter:
