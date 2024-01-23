@@ -75,9 +75,9 @@ params:
       username: bi_wentao
 
   homeInfoParams:
-    Title: "Get Ready With Me"
+    Title: "Get Ready With Me" 
     Content: |
-      Hi, I'm your Frank.
+      Hi, I'm your Frank.   
 
       <p><span class="nowrap"><span class="emojify">🙈</span>  <span class="nowrap"><span class="emojify">🙉</span>  <span class="nowrap"><span class="emojify">🙊</span></span></p>
 
@@ -111,24 +111,18 @@ outputFormats:
 
 menu:
   main:
-    - name: Study
-      url: /study/
+    - name: Posts
+      url: /posts/
       weight: 1
-    - name: Work
-      url: /work/
+    - name: Notes
+      url: /notes/
       weight: 2
-    - name: Life
-      url: /life/
-      weight: 3
-    - name: Thought
-      url: /thought/
-      weight: 4
     - name: Newsletter
       url: /newsletter/
-      weight: 5
+      weight: 3
     - name: Archives
       url: /archives/
-      weight: 6
+      weight: 4
 
 languages:
   en:
