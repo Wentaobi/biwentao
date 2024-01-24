@@ -64,13 +64,13 @@ params:
     - name: slack
       url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
     - name: medium
-      url: https://medium.com/@biwentaofrank
+      url: https://www.zhihu.com/people/biwentaofrank
     - name: hackerrank
       url: https://leetcode.com/biwentaofrank/
     - name: nvidia
       url: https://www.nvidia.com/en-us/
     - name: zhihu
-      url: https://www.zhihu.com/people/biwentaofrank
+      url: https://www.zhihu.com/people/biwentaofrank://www.nvidia.com/en-us/
 
   socialAccounts:
     twitter:
