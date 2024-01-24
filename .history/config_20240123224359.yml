@@ -1,20 +1,19 @@
 title: Frank Bi
 baseURL: "https://wentaobi.github.io/biwentao/"
 theme: PaperModX
-hasCJKLanguage: true
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
 enableEmoji: true
 
 params:
-  description: "Frank Bi Blog"
+  description: "Frank Bi description"
   author: Frank Bi
   images:
-    - cat.jpg
+    - cover.png
   favicon: favicon.ico
   logo:
-   icon: images/forge-v2-compat.svg
+   icon: images/cat.jpg
   DateFormat: "2006-01-02"
   useCustomAnalytics: true
   mainSections:
@@ -42,23 +41,6 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   Email: biwentaofrank@gmail.com
-
-  commentSystems:
-    disqus:
-      shortname: wentao
-    remark42:
-      url: https://remark42.biwentao.com
-      site: https://wentaobi.github.io/biwentao/
-    telegramWidget:
-      channel: biwentao_share
-      accentColor: "9077e1"
-      limit: 20
-  defaultCommentSystems:
-    remark42: true
-
-  newsletter:
-    notice:
-      usePartial: true
 
   socialIcons:
     - name: github-simple

@@ -43,23 +43,6 @@ params:
   ShowPostNavLinks: true
   Email: biwentaofrank@gmail.com
 
-  commentSystems:
-    disqus:
-      shortname: wentao
-    remark42:
-      url: https://remark42.biwentao.com
-      site: https://wentaobi.github.io/biwentao/
-    telegramWidget:
-      channel: biwentao_share
-      accentColor: "9077e1"
-      limit: 20
-  defaultCommentSystems:
-    remark42: true
-
-  newsletter:
-    notice:
-      usePartial: true
-
   socialIcons:
     - name: github-simple
       url: "https://github.com/wentaobi"
