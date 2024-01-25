@@ -61,8 +61,6 @@ params:
   #     usePartial: false
 
   socialIcons:
-    - name: mdi-resume
-      url: "https://github.com/Wentaobi"
     - name: github-simple
       url: "https://github.com/wentaobi"
     - name: twitter-simple
@@ -93,8 +91,6 @@ params:
       url: https://www.zhihu.com/people/biwentaofrank
     - name: mdi-calendar-month
       url: "https://cal.com/wentao"
-    - name: mdi-email
-      url: email
 
   socialAccounts:
     twitter:
