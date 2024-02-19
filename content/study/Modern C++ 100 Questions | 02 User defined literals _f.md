@@ -1,18 +1,17 @@
 ---
-title: "Modern C++ 100 Questions | 01 Pipe operator."
-date: "2014-01-25"
-description: "Implement pipe operator"
+title: "Modern C++ 100 Questions | 02 User defined literals _f"
+date: "2014-02-19"
+description: "User defined literals _f"
 tags:
   - pipe operator
   - lambda function
-  - template
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
 
 <!--more-->
 
-## `01` Implement pipe operator
+## `02` User defined literals _f
 
 **Requirements**：
 
@@ -20,19 +19,27 @@ This article offers a sample of basic Markdown syntax that can be used in Hugo c
 2. Please implement your function/code to get **Expected results**.
 
 ```cpp {linenos=true}
-int main()
-{
-    std::vector v{1, 2, 3};
-    std::function f {[](const int& i) {std::cout << i << ' '; } };
-    auto f2 = [](int& i) {i *= i; };
-    v | f2 | f;
+int main(){
+    std::cout << "乐 :{} *\n"_f(5);
+    std::cout << "乐 :{0} {0} *\n"_f(5);
+    std::cout << "乐 :{:b} *\n"_f(0b01010101);
+    std::cout << "{:*<10}"_f("卢瑟");
+    std::cout << '\n';
+    int n{};
+    std::cin >> n;
+    std::cout << "π：{:.{}f}\n"_f(std::numbers::pi_v<double>, n);
 }
 ```
 
 ### Expected results
 
 ```text
-1 4 9
+乐 :5 *
+乐 :5 5 *
+乐 :1010101 *
+卢瑟******
+6
+π：3.141593
 ```
 
 ### Suggested environments
