@@ -1,13 +1,14 @@
 {
-    "cSpell.words": [
-        "cassert",
-        "cout",
-        "cstdio",
-        "endl",
-        "iostream",
-        "linenos",
-        "MDOHMY",
-        "Shortcode",
-        "struct"
-    ]
+  "cSpell.words": [
+    "cassert",
+    "cout",
+    "cstdio",
+    "endl",
+    "iostream",
+    "linenos",
+    "MDOHMY",
+    "Shortcode",
+    "struct"
+  ],
+  "C_Cpp_Runner.msvcBatchPath": ""
 }
