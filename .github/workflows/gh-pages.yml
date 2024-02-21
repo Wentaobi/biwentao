@@ -29,17 +29,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.0.2  # Use v4 to ensure Node.js 20
+        with:
+          node-version: 20
+          
       - uses: actions/checkout@v3
         with:
           submodules: true  # Fetch Hugo themes
-
-      - name: Setup Node.js environment
-        uses: actions/setup-node@v4.0.2
-        with:
-          # Set always-auth in npmrc.
-          always-auth: true # optional, default is false
-          # Version Spec of the version to use. Examples: 12.x, 10.15.1, >=10.15.0.
-          node-version: 20 # optional
 
       - name: Configure Pages
         id: pages
@@ -71,6 +68,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Setup Node.js
+        uses: actions/setup-node@v4.0.2  # Use v4 to ensure Node.js 20
+        with:
+          node-version: 20
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
