@@ -9,6 +9,7 @@ tags:
 ### Userful links
 
 [cppreference][cppreference]
+
 [Compiler Explorer][godbolt]
 
 [cppreference]: https://en.cppreference.com/w/
