@@ -95,10 +95,11 @@ X()
 
 ### Suggested environments
 
-[Compiler explorer](https://godbolt.org/), please add **--std=c++20** to the compilation options.
+[Compiler explorer][def2], please add **--std=c++20** to the compilation options.
 
 ### My implementation
 
 [Reference code][def], please use browser to translate page from Chinese to English if necessary.
 
 [def]: https://zhuanlan.zhihu.com/p/681521425
+[def2]: https://godbolt.org/
